@@ -1,0 +1,3 @@
+REM just add the following line to the bottom of C:\autoexec.bat.
+
+PATH = "%PATH%;C:/PERL/BIN"
