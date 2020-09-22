@@ -1,0 +1,7 @@
+UPDATED! The FIRST webserver on PSC that supports form posting! (see screenshot). It currently supports perl cgi. Also supported are directory listings, custom front pages, custom error pages. It also supports flash, pdf, realmedia, mp3s, avi's, etc. Included is a useless but amusing 'loveclaculator.cgi' I built (basicly to prove form submission works). You could host a full website here! I'm using it to 'preview' cgi-enabled websites before uploading them to the http server, although, you could host a full website on it. Perl must be installed on your system, and in your msdos PATH variable (see instructions).
+
+Currently, the server only supports GET without modification of your CGI scripts, although, a full range of $ENV variables are available to your CGI scripts (query_string, remote_addr, server_port, server_addr, etc.) (see screenshot). and GET is suitible for almost every operation. Just file uploading from a form is impossible, but, I'm working on it.
+
+This release is a major jump from the last one, with directory listing, more $ENV variables, custom 404 pages, and full support for sub directorys (with /../ protection).
+
+Please download and tell me what you think, or, better, use it.
